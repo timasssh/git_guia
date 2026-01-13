@@ -15,3 +15,19 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 
 ##### Índice:
 
+1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando)
+
+---
+
+## Criando um repositório Git
+` git clone ` - usado caso você queira copiar ou clonar um repositório que já existe para a sua máquina.
+**Uso:** `git clone [link para um repositório] [nome desejado (opicional)]`
+Exemplo: digitando `git clone https://github.com/git/git.git codigo_git` será criado na sua máquina um diretório chamado "codigo_git" com o conteúdo do repositório original do Git.
+
+<br>
+
+` git init ` - usado caso você queira criar um repositório git na sua própria máquina no diretório atual.
+**Uso:** `git init`
+Esse é mais simples, basta digitar o comando acima no terminal e o seu diretório atual virará um repositório git pronto para você gerenciar seus arquivos.
+
+---
