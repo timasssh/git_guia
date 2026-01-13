@@ -15,7 +15,7 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 
 ##### Índice:
 
-1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando)
+1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
 
 ---
 
