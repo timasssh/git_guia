@@ -16,6 +16,7 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 ##### Índice:
 
 1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
+2. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
 
 ---
 
@@ -31,3 +32,24 @@ Exemplo: digitando `git clone https://github.com/git/git.git codigo_git` será c
 Esse é mais simples, basta digitar o comando acima no terminal e o seu diretório atual virará um repositório git pronto para você gerenciar seus arquivos.
 
 ---
+
+## Criando commits
+Depois de inicializar um repositório e fazer algumas alterações nos arquivos é hora de adicionar as modificações feitas a **staging** ou **index** e depois fazer **commits**.
+
+` git add ` - usado para adicionar os arquivos a *staging* antes de commita-los.
+**Uso:** `git add [arquivo(s)]`
+É possível fazer uso do símbolo `*` que será "traduzido" pelo Git como "todos".
+Exemplos:
+`git add *.md` - adiciona a *staging* todos os arquivos MarkDown do diretório atual, não incluindo os subdiretórios.
+`git add *t* README.md` - adiciona todos os arquivos que tem a letra **t** no nome e o arquivo README.md.
+`git add *` e `git add .` adicionam a *staging* todos os arquivos do diretório e seus subdiretórios.
+`git add diretorio1/ diretorio2/teste.md` adiciona todos os arquivos da pasta "diretorio1" e o arquivo "teste.md" da pasta "diretorio2".
+
+<br>
+
+` git restore --staged ` - usado para remover os arquivos de *staging* antes de fazer. Pode ser útil caso tenha adicionado a *index* um arquivo que não deveria fazer parte de seu próximo commit.
+**Uso:** `git restore --staged [arquivo(s)]`.
+É possível fazer uso do símbolo `*` que será "traduzido" pelo Git como "todos".
+Exemplo: `git restore --staged *` remove de *staging* todos os arquivos.
+
+<br>
