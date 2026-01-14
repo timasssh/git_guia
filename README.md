@@ -21,14 +21,14 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 ---
 
 ## Criando um repositório Git
-` git clone ` - usado caso você queira copiar ou clonar um repositório que já existe para a sua máquina.
+1. ` git clone ` - usado caso você queira copiar ou clonar um repositório que já existe para a sua máquina.
 
 **Uso:** `git clone [link para um repositório] [nome desejado (opicional)]`
 - Exemplo: digitando `git clone https://github.com/git/git.git codigo_git` será criado na sua máquina um diretório chamado "codigo_git" com o conteúdo do repositório original do Git.
 
 <br>
 
-` git init ` - usado caso você queira criar um repositório git na sua própria máquina no diretório atual.
+2. ` git init ` - usado caso você queira criar um repositório git na sua própria máquina no diretório atual.
 
 **Uso:** `git init`
 
@@ -39,7 +39,7 @@ Esse é mais simples, basta digitar o comando acima no terminal e o seu diretór
 ## Criando commits
 Depois de inicializar um repositório e fazer algumas alterações nos arquivos é hora de adicionar as modificações feitas a **staging** ou **index** e depois fazer **commits**.
 
-` git add ` - usado para adicionar os arquivos a *staging* antes de commita-los.
+1. ` git add ` - usado para adicionar os arquivos a *staging* antes de commita-los.
 
 **Uso:** `git add [arquivo(s)]`
 
@@ -53,15 +53,15 @@ Exemplos:
 
 <br>
 
-` git restore --staged ` - usado para remover os arquivos de *staging* antes de fazer. Pode ser útil caso tenha adicionado a *index* um arquivo que não deveria fazer parte de seu próximo commit.
+2. ` git restore --staged ` - usado para remover os arquivos de *staging* antes de fazer. Pode ser útil caso tenha adicionado a *index* um arquivo que não deveria fazer parte de seu próximo commit.
 
-**Uso:** `git restore --staged [arquivo(s)]`.
+**Uso:** `git restore --staged [arquivo(s)]`
 
 - Exemplo: `git restore --staged *` remove de *staging* todos os arquivos.
 
 <br>
 
-` git status ` e ` git diff ` - usados para ver as alterações e estado dos arquivos, com `diff` sendo mais específico e mostrando as linhas alteradas nos arquivos.
+3. ` git status ` e ` git diff ` - usados para ver as alterações e estado dos arquivos, com `diff` sendo mais específico e mostrando as linhas alteradas nos arquivos.
 
 **Uso:** `git status` e `git diff`
 
