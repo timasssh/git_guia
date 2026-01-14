@@ -80,6 +80,6 @@ Exemplos:
 **Uso:**
 - `git reset --hard HEAD~1` - volta para o último commit e descarta alterações em staging.
 - `git reset --soft HEAD~2` - volta para o penúltimo commit e mantém alterações em staging.
-- `git reset --hard [hash de um commit]` - volta para um commit específico.
+- `git reset --hard [hash de um commit]` - volta para um commit específico (`git reflog` para obter hash de um commit).
 
 <br>
