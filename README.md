@@ -88,7 +88,9 @@ Exemplos:
 ## Trabalhando com ramificações (branches)
 1. ` git branch [nome da branch] ` - usado para criar uma nova Branch. Digamos que você queira trabalhar em algo (feature, correção de bug, mudança de estilo, etc) ao mesmo tempo que você ou outra pessoa trabalha no projeto principal: para isso servem as **branches**.
 
-**Uso:** `git branch [nome da branch]`
+**Uso:** 
+- `git branch [nome da branch]` - cria uma branch.
+- `git branch -D [nome da branch]` - deleta uma branch.
 
 <br>
 
