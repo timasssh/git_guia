@@ -17,7 +17,7 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 
 1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
 2. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
-3. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-(branches))
+3. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-branches)
 
 ---
 
