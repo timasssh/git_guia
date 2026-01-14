@@ -60,3 +60,9 @@ Exemplos:
 - Exemplo: `git restore --staged *` remove de *staging* todos os arquivos.
 
 <br>
+
+` git status ` e ` git diff ` - usados para ver as alterações e estado dos arquivos, com `diff` sendo mais específico e mostrando as linhas alteradas nos arquivos.
+
+**Uso:** `git status` e `git diff`
+
+<br>
