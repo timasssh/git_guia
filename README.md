@@ -17,6 +17,7 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 
 1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
 2. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
+3. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-(branches))
 
 ---
 
@@ -81,5 +82,20 @@ Exemplos:
 - `git reset --hard HEAD~1` - volta para o último commit e descarta alterações em staging.
 - `git reset --soft HEAD~2` - volta para o penúltimo commit e mantém alterações em staging.
 - `git reset --hard [hash de um commit]` - volta para um commit específico (`git reflog` para obter hash de um commit).
+
+---
+
+## Trabalhando com ramificações (branches)
+1. ` git branch [nome da branch] ` - usado para criar uma nova Branch. Digamos que você queira trabalhar em algo (feature, correção de bug, mudança de estilo, etc) ao mesmo tempo que você ou outra pessoa trabalha no projeto principal: para isso servem as **branches**.
+
+**Uso:** `git branch [nome da branch]`
+
+<br>
+
+2. ` git checkout ` - usado para alterar entre branches.
+
+**Usos:** 
+- `git checkout [nome da branch]`
+- `git checkout -b [nome da branch]` - cria a branch e depois muda para ela, como se fizesse `git branch` e depois `git checkout`
 
 <br>
