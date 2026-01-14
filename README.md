@@ -94,7 +94,7 @@ Exemplos:
 
 2. ` git checkout ` - usado para alterar entre branches.
 
-**Usos:** 
+**Uso:** 
 - `git checkout [nome da branch]`
 - `git checkout -b [nome da branch]` - cria a branch e depois muda para ela, como se fizesse `git branch` e depois `git checkout`
 
