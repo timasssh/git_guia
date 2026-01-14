@@ -66,3 +66,9 @@ Exemplos:
 **Uso:** `git status` e `git diff`
 
 <br>
+
+4. ` git commit -m "" ` - usado para salvar as alterações adicionadas a *staging* em um *commit* juntamente com uma mensagem de descrição destas alterações. A descrição das alterações deve ser digitada entre aspas após o parâmetro `-m` ("m" vem de *message* neste caso), e deve responder claramente o que foi feito e o porquê.
+
+**Uso:** `git commit -m ""`
+
+- Exemplo: `git commit -m "fix: Função somarParesDoVetor somava um número a mais"`.
