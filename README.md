@@ -96,11 +96,12 @@ Exemplos:
 
 <br>
 
-2. ` git checkout ` - usado para alterar entre branches.
+2. ` git checkout ` ou ` git switch ` - usado para alterar entre branches.
 
 **Uso:** 
-- `git checkout [nome da branch]`
+- `git checkout [nome da branch]` - usado para alterar para a branch referenciada
 - `git checkout -b [nome da branch]` - cria a branch e depois muda para ela, como se fizesse `git branch` e depois `git checkout`
+- `git switch [nome da branch]` - usado para alterar para a branch referenciada (semelhante ao `checkout`)
 
 <br>
 
