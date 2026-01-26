@@ -123,3 +123,7 @@ Exemplos:
 **Uso:** `git push [nome do remoto (padrão: "origin")] [nome da branch]` - atualiza a branch referenciada no repositório remoto (normalmente chamdo de origin) com as modificações commitadas.
 
 <br>
+
+3. ` git pull ` - atualiza o repositório local de acordo com o conteúdo do repositório remoto.
+
+**Uso:** `git pull` - atualiza o repositório local (sem descartar alterações feitas).
