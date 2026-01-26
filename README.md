@@ -107,3 +107,18 @@ Exemplos:
 
 **Uso:**
 - `git merge [nome da branch]` - tras as modificações da branch referênciada para a branch atual.
+
+---
+
+## Sincronizando repositório local e remoto
+1. ` git remote add ` - adiciona um repositório remoto.
+
+**Uso:** `git remote add [nome do remoto (padrão: "origin")] [link do repositório remoto]`
+
+<br>
+
+2. ` git push ` - atualiza o repositório remoto com as modificações do repositório local.
+
+**Uso:** `git push [nome do remoto (padrão: "origin")] [nome da branch]` - atualiza a branch referenciada no repositório remoto (normalmente chamdo de origin) com as modificações commitadas.
+
+<br>
