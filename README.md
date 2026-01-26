@@ -90,6 +90,7 @@ Exemplos:
 
 **Uso:** 
 - `git branch [nome da branch]` - cria uma branch.
+- `git branch -a` - lista todas as branches.
 - `git branch -D [nome da branch]` - deleta uma branch.
 
 <br>
@@ -101,3 +102,8 @@ Exemplos:
 - `git checkout -b [nome da branch]` - cria a branch e depois muda para ela, como se fizesse `git branch` e depois `git checkout`
 
 <br>
+
+3. ` git merge ` - usado para fundir duas branches, trazendo as modificações de uma branch referenciada até a branch atual.
+
+**Uso:**
+- `git merge [nome da branch]` - tras as modificações da branch referênciada para a branch atual.
