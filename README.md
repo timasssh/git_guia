@@ -15,10 +15,30 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 
 ##### Índice:
 
-1. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
-2. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
-3. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-branches)
-4. [Sincronizando os repositórios remoto e local](https://github.com/timasssh/git_guia/blob/master/README.md#sincronizando-repositório-local-e-remoto)
+1. [Material complementar](https://github.com/timasssh/git_guia/blob/master/README.md#material-complementar)
+2. [Maneiras de iniciar um repositório Git](https://github.com/timasssh/git_guia/blob/master/README.md#criando-um-repositório-git)
+3. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
+4. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-branches)
+5. [Sincronizando os repositórios remoto e local](https://github.com/timasssh/git_guia/blob/master/README.md#sincronizando-repositório-local-e-remoto)
+
+---
+
+## Material complementar
+
+#### Leia / assita estes materiais antes de ler este conteúdo.
+
+##### O que é Git?
+- [Video: Código Fonte TV](https://youtu.be/za5KWZ5pRag?si=830UWfjxALDwT7Ke)
+
+##### Plataformas de hospedagem e versionamento (GitHub e GitLab)
+- [Leitura (inglês): GeeksForGeeks](https://www.geeksforgeeks.org/git/difference-between-gitlab-and-github/)
+
+##### Padrões de commits: como fazer commits melhores?
+- [Leitura (documentação de projeto): Iuricode](https://github.com/iuricode/padroes-de-commits)
+
+##### Branches (ramificações do seu projeto)
+- [Vídeo: Tiago matos - criando branches](https://youtu.be/lq3nawUnpEI?si=kSdeaZVH-tziFvK0)
+- [Vídeo: Tiago matos - mesclando branches (merge)](https://youtu.be/o5fm7l_e1Bc?si=EY5IH4HxWvXd-oDF)
 
 ---
 
