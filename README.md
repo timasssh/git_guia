@@ -34,6 +34,10 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 ##### Plataformas de hospedagem e versionamento (GitHub e GitLab)
 - [Leitura (inglês): GeeksForGeeks](https://www.geeksforgeeks.org/git/difference-between-gitlab-and-github/)
 
+##### Criando meu primeiro repositório
+- [Leitura: documentação GitHub - criando projeto com GitHub](https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories)
+- [Vídeo: Professor Clayton - criando projeto com GitLab](https://www.youtube.com/watch?v=aZhiurCZhyI)
+
 ##### Padrões de commits: como fazer commits melhores?
 - [Leitura (documentação de projeto): Iuricode](https://github.com/iuricode/padroes-de-commits)
 
