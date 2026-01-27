@@ -20,6 +20,7 @@ Como criar e gerenciar os arquivos de um repositório, assim como as modificaç�
 3. [Adicionando/removendo arquivos de *staging* e fazendo commits](https://github.com/timasssh/git_guia/blob/master/README.md#criando-commits)
 4. [Criando e alternando entre branches](https://github.com/timasssh/git_guia/blob/master/README.md#trabalhando-com-ramificações-branches)
 5. [Sincronizando os repositórios remoto e local](https://github.com/timasssh/git_guia/blob/master/README.md#sincronizando-repositório-local-e-remoto)
+6. [Ignorando arquivos](https://github.com/timasssh/git_guia/blob/master/README.md#ignorando-arquivos)
 
 ---
 
@@ -148,3 +149,25 @@ Exemplos:
 3. ` git pull ` - atualiza o repositório local de acordo com o conteúdo do repositório remoto.
 
 **Uso:** `git pull` - atualiza o repositório local (sem descartar alterações feitas).
+
+---
+
+## Ignorando arquivos
+
+Durante seu desenvolvimento, pode ser útil fazer o git ignorar certos arquivos — seja porque é um arquivo de variáveis de sistema (`.env`) que só deve existir na sua máquina, porque é uma pasta de dependências (ex: `node_modules`) que não tem necessidade de ser adicionada no repositório remoto ou qualquer outro motivo — isso pode ser feito com o arquivo `.gitignore`.
+
+Para isso basta criar um arquivo chamado ".gitignore" na raiz do seu projeto e dentro dele listar os aquivos e/ou pastas que devem ser ignorados da seguinte maneira:
+
+- `/caminho_para_o_arquivo/nome_do_arquivo.tipoDoArquivo`
+
+Podendo usar `*` que será "traduzido" pelo git como "todos"; assim:
+
+- `*.env` ou `imagem*.img`
+
+E para ignorar diretórios:
+
+- `/caminho_até_a_pasta/pasta/`
+- `/pasta/`
+- `/pasta*/`
+
+Simples assim, listando os arquivos e pastas desejados e dando "enter", você consegue controlar os arquivos que o Git monitora e deixa de monitorar.
